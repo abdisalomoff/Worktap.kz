@@ -7,3 +7,10 @@ body{
   background-color: #F7F6FF;
   font-family: "Montserrat";
 }
+
+.business-inner{
+  background-image: url("../assets/images/business-bg-removebg.png");
+  background-repeat: no-repeat;
+  background-size: 1120px;
+  background-position: calc(50% + 300px) top;
+}

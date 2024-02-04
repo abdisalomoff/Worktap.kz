@@ -17,7 +17,14 @@ module.exports = {
     },
     fontFamily: {
       "montserrat": ['Montserrat', "sans-serif"]
+    },
+    extend: {
+      backgroundImage: {
+        'business-bg': "url('/images/business-bg.png')",
+
+      }
     }
+
   },
   plugins: [],
 };

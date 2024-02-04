@@ -1,5 +1,6 @@
 import Business from "@/components/Business/Business";
 import CurrentWorks from "@/components/CurrentWorks/CurrentWorks";
+import Footer from "@/components/Footer/Footer";
 import Freelancers from "@/components/Freelancers/Freelancers";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Freelancers/>
       <WorkTap/>
       <Business/>
+      <Footer/>
     </>
   );
 }
