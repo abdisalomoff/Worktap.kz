@@ -1,3 +1,4 @@
+import Business from "@/components/Business/Business";
 import CurrentWorks from "@/components/CurrentWorks/CurrentWorks";
 import Freelancers from "@/components/Freelancers/Freelancers";
 import Header from "@/components/Header/Header";
@@ -12,6 +13,7 @@ export default function Home() {
       <CurrentWorks/>
       <Freelancers/>
       <WorkTap/>
+      <Business/>
     </>
   );
 }
