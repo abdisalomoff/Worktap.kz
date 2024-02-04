@@ -23,13 +23,13 @@ const CurrentWorks = () => {
     <section className="font-montserrat current-works mt-24">
     <div className="container">
       <h2 className="font-bold text-[24px] mb-12">Актуальные ворки</h2>
-      <ul className="current-works_inner flex flex-wrap gap-7">
+      <ul className="current-works_inner flex flex-wrap gap-5">
         {title.map((task, index) => (
-          <li key={index} className=" w-[400px] border shadow-lg border-light_gray rounded-[20px] p-5">
+          <li key={index} className=" w-[420px] border shadow-lg border-light_gray rounded-[20px] p-5">
             <div className="overlay w-[100%] h-[100%] absolute"></div>
             <div className="card-header flex gap-x-5 items-center">
               <Image width={44} src={usersImg[index]} alt={`user-${index + 1}-img`} />
-              <h4 className="font-bold text-[18px]">{task}</h4>
+              <h4 className="font-semibold text-[18px]">{task}</h4>
             </div>
             <div className="card-body mt-3 h-[90px]">
               <p className='text-[14px] font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed leo at hendrerit dictum diam, enim. Dolor in imperdiet ultrices mauris. Est vitae vulputate est nec cras. Turpis nunc ornare nulla neque, interdum. At pharetra consectetur nec est convallis...</p>
