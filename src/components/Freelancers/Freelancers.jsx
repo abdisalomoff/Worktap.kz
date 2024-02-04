@@ -60,6 +60,9 @@ const Freelancers = () => {
               <Link href="#" className='cursor-pointer border max-w-[300px] mx-auto mt-12 hover:text-[#fff] hover:bg-green w-[100%] text-green block text-center p-2 rounded-[50px]'>Написать</Link>
             </li>
           ))}
+           <li className=" max-w-[420px] border shadow-lg bg-light_gray border-light_gray rounded-[20px] p-5 px-10">
+            <p className="text-green font-bold flex justify-center mt-24">Посмотреть всех ТОП фрилансеров</p>
+            </li>
         </ul>
       </div>
     </section>
